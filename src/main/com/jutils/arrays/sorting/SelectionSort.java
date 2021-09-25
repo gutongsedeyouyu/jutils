@@ -1,4 +1,4 @@
-package com.jutils.sorting;
+package com.jutils.arrays.sorting;
 
 import java.util.Comparator;
 
