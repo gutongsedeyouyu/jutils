@@ -99,8 +99,8 @@ public class SortTest {
         sort.sort(items, ItemComparator.getInstance());
         // 3. Compare the sort result with the source array.
         for (int i = 0; i < length; i++) {
-            assertEquals(items[i].value, sourceItems[i].value);
-            assertEquals(items[i].originalIndex, sourceItems[i].originalIndex);
+            assertEquals(sourceItems[i].value, items[i].value);
+            assertEquals(sourceItems[i].originalIndex, items[i].originalIndex);
         }
     }
 

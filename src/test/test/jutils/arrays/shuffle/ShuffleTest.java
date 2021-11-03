@@ -36,7 +36,7 @@ public class ShuffleTest {
             shuffle.shuffle(items);
             Arrays.sort(items);
             for (int i = 0; i < length; i++) {
-                assertEquals(items[i], i);
+                assertEquals(i, items[i]);
             }
         }
     }

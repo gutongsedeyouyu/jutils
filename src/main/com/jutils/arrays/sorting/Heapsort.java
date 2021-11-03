@@ -4,7 +4,7 @@ import java.util.Comparator;
 
 /**
  * Heapsort.
- *
+ * <p>
  * Given a parent node with index i, its child nodes' indices are i * 2 + 1 and i * 2 + 2
  */
 public class Heapsort<T> implements Sort<T> {
