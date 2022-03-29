@@ -10,6 +10,15 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Date format helper.
+ * <pre>
+ * -------------------------------------------------------------------
+ * |  Format                        |  Example                       |
+ * |--------------------------------+--------------------------------|
+ * |  yyyy-MM-dd'T'HH:mm:ss.SSSX    |  2001-07-04T19:08:56.235Z      |
+ * |--------------------------------+--------------------------------|
+ * |  EEE MMM dd HH:mm:ss zzz yyyy  |  Wed Jul 04 19:08:56 UTC 2001  |
+ * -------------------------------------------------------------------
+ * </pre>
  */
 public class DateFormatHelper {
     private static final TimeZone TIME_ZONE_UTC = TimeZone.getTimeZone("UTC");

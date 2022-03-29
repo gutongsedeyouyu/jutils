@@ -1,6 +1,12 @@
 package test.jutils.arrays.sorting;
 
-import com.jutils.arrays.sorting.*;
+import com.jutils.arrays.sorting.BubbleSort;
+import com.jutils.arrays.sorting.Heapsort;
+import com.jutils.arrays.sorting.InsertionSort;
+import com.jutils.arrays.sorting.MergeSort;
+import com.jutils.arrays.sorting.Quicksort;
+import com.jutils.arrays.sorting.SelectionSort;
+import com.jutils.arrays.sorting.Sort;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
